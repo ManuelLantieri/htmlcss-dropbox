@@ -179,3 +179,24 @@ header a{
 .col-main{
     padding: 0 30px;
 }
+
+.col-main h1{
+    margin-bottom: 20px;
+}
+
+.col-main .cost{
+    margin-bottom: 50px;
+}
+
+.price{
+    font-weight: 700;
+    line-height: 2;
+}
+
+.cost-time{
+    color: #6a6c69;
+}
+
+.col-main ul{
+    list-style: none;
+}
