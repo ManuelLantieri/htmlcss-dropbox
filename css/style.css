@@ -173,11 +173,11 @@ header a{
     text-align: center;
     border-bottom: 1px solid #d0cfd4;
     padding: 10px 0;
-    margin-bottom: 30px;
+    
 }
 
 .col-main{
-    padding: 0 30px;
+    padding: 30px 30px 50px;
 }
 
 .col-main h1{
@@ -199,7 +199,10 @@ header a{
 
 .col-main ul{
     list-style: none;
-    margin-bottom: 50px;
+}
+
+.col-main ul h3{
+    line-height: 2;
 }
 
 li{
@@ -209,5 +212,26 @@ li{
 }
 
 .col-main .btn-main{
+    width: 100%;
+}
+
+.link-buy-now{
+    padding: 40px 0;
+}
+
+.col-main hr{
+    height: 1px;
+    width: 50px;
+    background-color: #d0cfd4;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.fa-check{
+        color: #0061fe;
+}
+
+
+.col-large{
     width: 100%;
 }
