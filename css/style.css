@@ -6,4 +6,63 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
+
+/* -----------------------------------
+                DEBUG
+--------------------------------------*/
+
+.debug header{
+    background-color: brown;
+    border: 1px dashed black;
+}
+
+/* --------------------------
+            BUTTONS
+----------------------------*/
+
+.btn-main{
+    background-color: #0061fe;
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+
+/* ------------------------
+        HEADER
+---------------------------*/
+header{
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+    align-items: center;
+}
+
+.header-left{
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+nav{
+    display:flex;
+    gap:40px;
+    align-items: center;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
