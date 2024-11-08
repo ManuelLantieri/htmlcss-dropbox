@@ -18,15 +18,12 @@
     border: 1px dashed black;
 } */
 
-section{
-    border:2px solid red
+.debug section{
+    border:1px solid red
 }
 
-.row .col{
-    border: 1px solid red;
-}
 /* --------------------------
-            BUTTONS and general
+        BUTTONS and general
 ----------------------------*/
 /* general */
 
@@ -231,6 +228,10 @@ li{
     padding: 40px 0;
 }
 
+.link-buy-now a{
+    color:#0959f8;
+}
+
 .col-main hr{
     height: 1px;
     width: 50px;
@@ -307,5 +308,38 @@ li{
     margin-bottom: 30px;
 }
 
+/* last-section */
 
+.last-section h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.last-section a{
+    color: #0959f8;
+}
+
+/* ------------------------
+            FOOTER
+--------------------------*/
+
+footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.footer-row{
+    display: flex;
+    gap: 40px;
+}
+
+.col-inner{
+    width: calc(100% / 5);
+}
+
+.col-inner ul{
+    list-style: none;
+    color: #ffffff;
+}
 
