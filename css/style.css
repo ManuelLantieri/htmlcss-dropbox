@@ -92,21 +92,31 @@ header{
 .header-left{
     display: flex;
     gap: 40px;
-    flex-grow: 1;
     align-items: center;
 }
 
-.header-right{
-    display: flex;
-    gap: 20px;
-    flex-grow: 1;
-    align-items: center;
+.logo{
+    cursor: pointer;
 }
 
-nav{
+.nav-left{
     display:flex;
     gap:40px;
     align-items: center;
+    list-style: none;
+}
+
+.header-rigt{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
 }
 
 header a{
@@ -226,7 +236,7 @@ header a:hover{
     line-height: 2;
 }
 
-li{
+.col-main ul > li{
     padding-top: 18px;
     display: flex;
     gap: 10px;
@@ -234,6 +244,7 @@ li{
 
 .col-main .btn-main{
     width: 100%;
+    margin-top: 40px;
 }
 
 .link-buy-now{
