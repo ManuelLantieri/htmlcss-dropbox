@@ -231,7 +231,20 @@ li{
         color: #0061fe;
 }
 
+/* col-large */
 
 .col-large{
     width: 100%;
+    border: 1px solid #d0cfd4;
+}
+
+.col-large-main{
+    padding: 30px;
+    position: relative;
+}
+
+.col-large .col-large-main > .btn-main{
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
