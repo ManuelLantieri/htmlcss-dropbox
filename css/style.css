@@ -19,8 +19,20 @@
 }
 
 /* --------------------------
-            BUTTONS
+            BUTTONS and general
 ----------------------------*/
+/* general */
+
+.container-big{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* buttons */
 
 .btn-main{
     background-color: #0061fe;
@@ -64,5 +76,30 @@ nav{
 header a{
     color: black;
     text-decoration: none;
+}
+
+/* ------------------------
+        hero
+---------------------------*/
+
+.hero{
+    background-color: #b4d0e6;
+    max-height: 750px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.hero-content{
+    display: flex;
+}
+
+.content-text{
+    width: 30%;
+}
+
+.content-img{
+    width: 70%;
 }
 
