@@ -62,11 +62,19 @@ img{
     cursor: pointer;
 }
 
+.btn-main:hover{
+    background-color: #327ffc;
+}
+
 .btn-second{
     background-color: #ffffff;
     border:1px solid black;
     padding: 10px 15px;
     cursor: pointer;
+}
+
+.btn-second:hover{
+    background-color: #e6e6e6;
 }
 
 
@@ -104,6 +112,10 @@ nav{
 header a{
     color: black;
     text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline
 }
 
 /* ------------------------
@@ -344,10 +356,19 @@ footer{
     text-decoration: none;
 }
 
+.col-inner a:hover{
+    text-decoration: underline;
+}
+
 .col-inner ul{
     list-style: none;
     color: #ffffff;
 }
+
+.col-inner ul h1{
+    margin-bottom: 20px;
+}
+
 footer hr{
     height: 1px;
     width: 120px;
