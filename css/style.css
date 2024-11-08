@@ -13,11 +13,18 @@
                 DEBUG
 --------------------------------------*/
 
-.debug header{
+/* .debug header{
     background-color: brown;
     border: 1px dashed black;
+} */
+
+section{
+    border:2px solid red
 }
 
+.row .col{
+    border: 1px solid red;
+}
 /* --------------------------
             BUTTONS and general
 ----------------------------*/
@@ -137,8 +144,38 @@ header a{
 
 /* first section */
 
-.first-section-title{
+.first-section-title h1{
     font-size: 40px;
+    padding-top: 60px;
+    margin-bottom: 60px;
 }
 
+#fat-ann{
+    margin-left: 45px;    
+}
 
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.col{
+    width: calc(100% / 3);
+}
+
+.row .col{
+    border: 1px solid #d0cfd4;
+}
+
+.col-header{
+    text-align: center;
+    border-bottom: 1px solid #d0cfd4;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.col-main{
+    padding: 0 30px;
+}
