@@ -60,10 +60,12 @@ img{
     color: #ffffff;
     padding: 10px 15px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .btn-main:hover{
-    background-color: #327ffc;
+    background-color: #649ffc;
+    transition: 0.5s;
 }
 
 .btn-second{
@@ -71,10 +73,12 @@ img{
     border:1px solid black;
     padding: 10px 15px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .btn-second:hover{
     background-color: #e6e6e6;
+    transition:0.5s;
 }
 
 
