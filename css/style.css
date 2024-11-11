@@ -143,7 +143,7 @@ header a:hover{
 .hero{
     background-color: #b4d0e6;
     padding-top: 80px;
-    max-height: 750px;
+    max-height: 850px;
     margin-bottom: 130px;
 }
 
@@ -185,7 +185,7 @@ header a:hover{
 
 /* first section */
 
-.first-section-title h1{
+.first-section-title h2{
     font-size: 40px;
     margin-bottom: 60px;
 }
@@ -220,12 +220,12 @@ header a:hover{
     padding: 30px 30px 50px;
 }
 
-.col-main h1{
+.col-main h2{
     margin-bottom: 20px;
 }
 
 .col-main .cost{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .price{
@@ -258,7 +258,7 @@ header a:hover{
 }
 
 .link-buy-now{
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .link-buy-now a{
@@ -275,7 +275,7 @@ header a:hover{
     width: 50px;
     background-color: #d0cfd4;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .fa-check{
@@ -325,7 +325,7 @@ header a:hover{
 
 /* third section */
 
-.third-section > h1{
+.third-section > h2{
     font-size: 40px;
     margin-bottom: 60px;
 }
@@ -342,13 +342,13 @@ header a:hover{
     width: calc(100% / 3);
 }
 
-.third-section h1{
+.third-section h2{
     margin-bottom: 30px;
 }
 
 /* last-section */
 
-.last-section h1{
+.last-section h2{
     font-size: 40px;
     margin-bottom: 60px;
 }
