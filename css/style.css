@@ -231,6 +231,7 @@ header a:hover{
 .price{
     font-weight: 700;
     line-height: 2;
+    padding-bottom: 30px;
 }
 
 .cost-time{
