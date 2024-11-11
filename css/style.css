@@ -203,6 +203,7 @@ header a:hover{
 
 .col{
     width: calc(100% / 3);
+    padding: 20px 20px;
 }
 
 .row-first .col{
@@ -334,8 +335,7 @@ header a:hover{
     margin-top: 40px;
     margin-bottom: 50px;
     display: flex;
-    gap: 20px;
-    
+    flex-wrap: wrap;
 }
 
 .third-section col{
