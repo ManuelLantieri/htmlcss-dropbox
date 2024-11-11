@@ -83,10 +83,14 @@ img{
 ---------------------------*/
 header{
     max-height: 80px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 40px 30px;
     align-items: center;
+    position: fixed;
+    z-index: 200;
+    background-color: #ffffff;
 }
 
 .header-left{
@@ -134,6 +138,7 @@ header a:hover{
 
 .hero{
     background-color: #b4d0e6;
+    padding-top: 80px;
     max-height: 750px;
     margin-bottom: 130px;
 }
@@ -253,6 +258,11 @@ header a:hover{
 
 .link-buy-now a{
     color:#0959f8;
+    text-decoration: none;
+}
+
+.link-buy-now a:hover{
+    text-decoration: underline;
 }
 
 .col-main hr{
@@ -340,6 +350,11 @@ header a:hover{
 
 .last-section a{
     color: #0959f8;
+    text-decoration: none;
+}
+
+.last-section a:hover{
+    text-decoration: underline;
 }
 
 /* ------------------------
